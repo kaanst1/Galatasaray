@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.navbar {
+    background-color: #d70000; /* Galatasaray kırmızısı */
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar a {
+    color: #ffffff; /* Beyaz metin rengi */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline; /* Üzerine gelindiğinde altı çizili */
+}
+
+h1 {
+    color: #d70000; /* Kırmızı başlık rengi */
+    text-align: center;
+}
+
+h2 {
+    color: #000; /* Siyah başlık rengi */
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #d70000; /* Galatasaray kırmızısı */
+    color: #ffffff; /* Beyaz metin rengi */
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-item {
+    display: inline-block;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+}
