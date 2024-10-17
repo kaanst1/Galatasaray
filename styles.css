@@ -7,8 +7,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #fff; /* Beyaz arka plan */
-    color: #333;
+    background-color: #c8102e; /* Galatasaray kırmızısı arka plan */
+    color: #fff; /* Beyaz metin rengi */
 }
 
 /* Navbar */
@@ -101,7 +101,7 @@ body {
 .achievements h2 {
     margin-bottom: 30px;
     font-size: 36px;
-    color: #000; /* Siyah başlık rengi */
+    color: #c8102e; /* Kırmızı başlık rengi */
 }
 
 .achievement-list {
@@ -116,16 +116,17 @@ body {
     margin: 15px;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .achievement img {
     width: 100%;
-    border: 3px solid #ffcc00; /* Sarı çerçeve */
+    border: 3px solid #c8102e; /* Kırmızı çerçeve */
 }
 
 .achievement h3 {
     font-size: 20px;
+    color: #c8102e; /* Kırmızı metin rengi */
 }
 
 .achievement p {
@@ -137,6 +138,24 @@ body {
     display: flex;
     justify-content: center;
     margin: 20px 0;
+}
+
+/* İletişim Sosyal Medya */
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-media a {
+    color: #ffcc00; /* Sarı metin rengi */
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
 }
 
 /* Footer */
@@ -152,7 +171,7 @@ footer {
 }
 
 .footer-links a {
-    color: #ffcc00;
+    color: #ffcc00; /* Sarı metin rengi */
     margin: 0 15px;
     text-decoration: none;
 }
