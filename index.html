@@ -7,50 +7,82 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <header>
         <div class="navbar">
-            <a href="hakkimizda.html">Hakkımızda</a>
-            <a href="iletisim.html">İletişim</a>
-            <a href="index.html">Anasayfa</a>
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Galatasaray_Sports_Club_Logo.png/721px-Galatasaray_Sports_Club_Logo.png" alt="Galatasaray Logo" width="50">
+            </div>
+            <nav>
+                <a href="index.html">Anasayfa</a>
+                <a href="hakkimizda.html">Hakkımızda</a>
+                <a href="iletisim.html">İletişim</a>
+            </nav>
         </div>
     </header>
 
     <main>
-        <section id="slider">
-            <!-- Slider Başlangıcı -->
+        <!-- Slider Başlangıcı -->
+        <section class="hero">
             <div class="slider">
                 <div class="slides">
                     <div class="slide">
-                        <img src="https://via.placeholder.com/800x400/ffcc00/000000?text=Galatasaray+Futbol+Takımı" alt="Futbol Takımı">
-                        <p>Galatasaray'ın en büyük başarılarından biri: UEFA Kupası zaferi.</p>
+                        <img src="https://via.placeholder.com/1200x500/ffcc00/000000?text=Galatasaray+Futbol+Takımı" alt="Futbol Takımı">
+                        <div class="caption">
+                            <h2>Galatasaray Futbol Takımı</h2>
+                            <p>Galatasaray'ın UEFA ve Süper Kupa zaferleri!</p>
+                        </div>
                     </div>
                     <div class="slide">
-                        <img src="https://via.placeholder.com/800x400/ff0000/ffffff?text=Galatasaray+Basketbol+Takımı" alt="Basketbol Takımı">
-                        <p>Basketbol branşında kazandığı şampiyonluklar ve Eurocup zaferi.</p>
+                        <img src="https://via.placeholder.com/1200x500/ff0000/ffffff?text=Galatasaray+Basketbol+Takımı" alt="Basketbol Takımı">
+                        <div class="caption">
+                            <h2>Basketbol Branşı</h2>
+                            <p>Basketbol Eurocup şampiyonluğu ve yerel başarılar.</p>
+                        </div>
                     </div>
                     <div class="slide">
-                        <img src="https://via.placeholder.com/800x400/000000/ffffff?text=Galatasaray+Voleybol+Takımı" alt="Voleybol Takımı">
-                        <p>Galatasaray voleybol takımı, Türkiye Ligi'ndeki başarılarıyla tanınır.</p>
-                    </div>
-                    <div class="slide">
-                        <img src="https://via.placeholder.com/800x400/ffffff/000000?text=Galatasaray+Yüzme+Takımı" alt="Yüzme Takımı">
-                        <p>Yüzme sporunda önemli ulusal ve uluslararası başarılara imza atmıştır.</p>
-                    </div>
-                    <div class="slide">
-                        <img src="https://via.placeholder.com/800x400/ffcc00/000000?text=Galatasaray+Tarihçesi" alt="Tarihçe">
-                        <p>Galatasaray'ın köklü tarihi ve başarılarla dolu yolculuğu.</p>
+                        <img src="https://via.placeholder.com/1200x500/000000/ffffff?text=Galatasaray+Voleybol+Takımı" alt="Voleybol Takımı">
+                        <div class="caption">
+                            <h2>Voleybol Branşı</h2>
+                            <p>Türkiye Voleybol Ligi'nde büyük başarılar.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- Slider Sonu -->
+        </section>
+        <!-- Slider Sonu -->
+
+        <!-- Başarılar Bölümü -->
+        <section class="achievements">
+            <h2>Başarılarımız</h2>
+            <div class="achievement-list">
+                <div class="achievement">
+                    <h3>UEFA Kupası</h3>
+                    <p>2000 yılında UEFA Kupası'nı kazanan ilk Türk takımı.</p>
+                </div>
+                <div class="achievement">
+                    <h3>Süper Lig Şampiyonluğu</h3>
+                    <p>22 kez Süper Lig Şampiyonu oldu.</p>
+                </div>
+                <div class="achievement">
+                    <h3>Basketbol Eurocup</h3>
+                    <p>2016 yılında Avrupa'da basketbol şampiyonu.</p>
+                </div>
+                <div class="achievement">
+                    <h3>Voleybol Başarıları</h3>
+                    <p>Voleybolda Türkiye Kupası ve lig şampiyonlukları.</p>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Galatasaray SK. Tüm hakları saklıdır.</p>
-        <div class="footer-links">
-            <a href="#">Gizlilik Politikası</a>
-            <a href="#">Kullanım Şartları</a>
+        <div class="footer-content">
+            <p>&copy; 2024 Galatasaray Spor Kulübü. Tüm hakları saklıdır.</p>
+            <div class="footer-links">
+                <a href="#">Gizlilik Politikası</a>
+                <a href="#">Kullanım Şartları</a>
+            </div>
         </div>
     </footer>
 

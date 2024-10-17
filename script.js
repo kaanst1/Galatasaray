@@ -1,6 +1,6 @@
+let index = 0;
 const slides = document.querySelector('.slides');
 const totalSlides = document.querySelectorAll('.slide').length;
-let index = 0;
 
 function nextSlide() {
     index++;
@@ -10,4 +10,4 @@ function nextSlide() {
     slides.style.transform = `translateX(${-index * 100}%)`;
 }
 
-setInterval(nextSlide, 3000); // 3 saniyede bir kaydır
+setInterval(nextSlide, 4000);  // Her 4 saniyede bir slider değişir.
