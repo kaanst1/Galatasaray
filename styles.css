@@ -7,13 +7,13 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
+    background-color: #fff; /* Beyaz arka plan */
     color: #333;
 }
 
 /* Navbar */
 .navbar {
-    background-color: #ffcc00;
+    background-color: #ffcc00; /* Sarı arka plan */
     padding: 15px;
     display: flex;
     justify-content: space-between;
@@ -50,6 +50,8 @@ body {
     height: 500px;
     margin: 20px auto;
     overflow: hidden;
+    border: 5px solid #ffcc00; /* Sarı çerçeve */
+    border-radius: 10px;
 }
 
 .slides {
@@ -91,7 +93,7 @@ body {
 
 /* Başarılar Bölümü */
 .achievements {
-    background-color: #fff;
+    background-color: #ffcc00; /* Sarı arka plan */
     padding: 40px;
     text-align: center;
 }
@@ -99,6 +101,7 @@ body {
 .achievements h2 {
     margin-bottom: 30px;
     font-size: 36px;
+    color: #000; /* Siyah başlık rengi */
 }
 
 .achievement-list {
@@ -108,12 +111,17 @@ body {
 }
 
 .achievement {
-    background: #ffcc00;
+    background: white; /* Beyaz arka plan */
     width: 200px;
     margin: 15px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.achievement img {
+    width: 100%;
+    border: 3px solid #ffcc00; /* Sarı çerçeve */
 }
 
 .achievement h3 {
