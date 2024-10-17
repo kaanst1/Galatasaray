@@ -10,4 +10,4 @@ function nextSlide() {
     slides.style.transform = `translateX(${-index * 100}%)`;
 }
 
-setInterval(nextSlide, 3000); // Her 3 saniyede bir kaydır
+setInterval(nextSlide, 3000); // 3 saniyede bir kaydır
